@@ -10,6 +10,7 @@ updater.dispatcher.add_handler(CommandHandler('summ', summ))
 updater.dispatcher.add_handler(CommandHandler('divide', divide))
 updater.dispatcher.add_handler(CommandHandler('multiply', multiply))
 updater.dispatcher.add_handler(CommandHandler('substract', substract))
+updater.dispatcher.add_handler(CommandHandler('complex', complex_command))
 print('Started')
 
 updater.start_polling()
